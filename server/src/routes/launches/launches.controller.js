@@ -15,6 +15,7 @@ async function httpGetAllLaunches(req, res) {
 
 async function httpAddNewLaunch(req, res) {
   const launch = req.body;
+  // console.log(launch);
 
   if (
     !launch.mission ||
